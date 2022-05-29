@@ -7,7 +7,7 @@
     "build": "nx build",
     "test": "nx test"
   },
-  "private": true,
+  "private": false,
   "dependencies": {
     "@nrwl/next": "14.1.9",
     "core-js": "^3.6.5",

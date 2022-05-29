@@ -1,0 +1,12 @@
+{
+  "name": "@crea-div-ui/core",
+  "version": "1.0.1",
+  "description": "Run `npx nx g @nrwl/react:component my-component --project=core --export` to generate a new component.",
+  "main": "index.js",
+  "private": false,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

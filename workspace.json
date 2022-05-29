@@ -3,6 +3,7 @@
   "version": 2,
   "projects": {
     "core": "libs/core",
+    "ui": "libs/ui",
     "ui-components": "apps/ui-components",
     "ui-components-e2e": "apps/ui-components-e2e"
   }

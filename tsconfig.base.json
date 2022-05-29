@@ -15,6 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@crea-div-ui": ["libs/ui/src/index.ts"],
       "@crea-div-ui/core": ["libs/core/src/index.ts"]
     }
   },
