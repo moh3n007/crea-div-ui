@@ -2,6 +2,7 @@
   "$schema": "./node_modules/nx/schemas/workspace-schema.json",
   "version": 2,
   "projects": {
+    "core": "libs/core",
     "ui-components": "apps/ui-components",
     "ui-components-e2e": "apps/ui-components-e2e"
   }

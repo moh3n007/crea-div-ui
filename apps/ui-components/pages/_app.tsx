@@ -1,5 +1,6 @@
 import { AppProps } from 'next/app';
 import Head from 'next/head';
+import Layout from '../components/layout/Layout';
 import './styles.css';
 
 function CustomApp({ Component, pageProps }: AppProps) {
@@ -8,9 +9,9 @@ function CustomApp({ Component, pageProps }: AppProps) {
       <Head>
         <title>Welcome to ui-components!</title>
       </Head>
-      <main className="app">
-        <Component {...pageProps} />
-      </main>
+        <Layout>
+          <Component {...pageProps} />
+        </Layout>
     </>
   );
 }
